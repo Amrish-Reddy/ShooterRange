@@ -26,7 +26,7 @@ function setup() {
   
   gun= createSprite(100, height/2, 50,50);
   gun.addImage(gunImg)
-  gun.scale=0.2
+  gun.scale=0.35
   
   bulletGroup = createGroup();   
   blueBubbleGroup = createGroup();   
@@ -79,10 +79,7 @@ function draw() {
 
     drawSprites();
   }
-    
-  
 }
-
 function drawblueBubble(){
   bluebubble = createSprite(800,random(20,780),40,40);
   bluebubble.addImage(blueBubbleImg);
